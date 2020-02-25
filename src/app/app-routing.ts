@@ -44,7 +44,7 @@ export const rootRouterConfig: Routes = [
         data: { title: "Dashboard", breadcrumb: "DASHBOARD" }
       },
       {
-        path: "favorites",
+        path: "favorite",
         loadChildren: () =>
           import("./views/favorites/favorites.module").then(
             m => m.FavoritesModule

@@ -21,10 +21,9 @@ import { AppComfirmComponent } from './services/app-confirm/app-confirm.componen
 const classesToInclude = [AppComfirmComponent];
 
 @NgModule({
-  imports: [CommonModule, 
-            FormsModule, 
+  imports: [CommonModule,
+            FormsModule,
             RouterModule
-           
   ],
 
   providers: [AppConfirmService],

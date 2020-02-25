@@ -14,10 +14,11 @@ export class SigninComponent implements OnInit {
   constructor( private dataService: DataService) { }
 
   ngOnInit() {
-    this.dataService.getUsers().subscribe((data: any[]) => {
+
+    /*this.dataService.getUsers().subscribe((data: any[]) => {
       console.log(data);
       this.users = data;
-    });
+    });*/
   }
 
 }
