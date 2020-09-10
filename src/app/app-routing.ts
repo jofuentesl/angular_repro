@@ -32,7 +32,7 @@ export const rootRouterConfig: Routes = [
   {
     path: "admin",
     /*  component: AdminLayoutComponent, */
-    /* canActivate: [AuthGuard], */
+    /* canActivate:*/
     children: [
       {
         path: "dashboard",
